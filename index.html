@@ -1,56 +1,51 @@
 <!DOCTYPE html>
-
-<html lang="ru">
-
+<html lang="ru", lang="en">
 <head>
-    <meta charset=utf-8"/>
-    <title>Резюме</title>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-    <link
-            href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic'
-            rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cv.css">
+    <title class="title">Резюме</title>
 </head>
 <body>
-<div class="container">
-    <img src="image1.jpg" alt="photo" class="u-max-full-width"/>
+<div class="wrapper">
     <div class="container">
-        <h1>Катерина И</h1>
-        <p>
-            Cell: 666-666-6666
-        </p>
-        <p>
-            Email: cat81.06@gmail.com
-        </p>
+        <img src="image1.jpg" alt="photo" class="u-max-full-width" width="500" height="650"/>
+        <div class="container">
+            <h1 class="name">Катерина И</h1>
+            <p>
+                Cell: 666-666-6666
+            </p>
+            <p>
+                Email: cat81.06@gmail.com
+            </p>
+        </div>
+        <dl>
+            <dd class="clear"></dd>
+            <dt>Образование</dt>
+            <dd>
+                <h2>Академия Русского балета</h2>
+                <p> Хореографическое искусство</p>
+            </dd>
+            <dd class="clear"></dd>
+            <dt>Опыт</dt>
+            <dd class="experience">
+                <h2>Большой театр, 1926-2010</h2>
+                <ul>
+                    <li>Урок классического танца.</li>
+                    <li>Репетиции, разучивание новых партий.</li>
+                    <li>Спектакли, концерты.</li>
+                </ul>
+
+                <h2>Малый театр, н.в. - 2010</h2>
+                <ul>
+                    <li>Исполнение танцев народов мира.</li>
+                    <li>Постановка хореографических номеров.</li>
+                </ul>
+            </dd>
+
+            <dt>Хобби</dt>
+            <dd>Музыка, балет, путешествия</dd>
+        </dl>
     </div>
-    <dl>
-        <dd class="clear"></dd>
-        <dt>Образование</dt>
-        <dd>
-            <h2>Академия Русского балета</h2>
-            <p> Хореографическое искусство</p>
-        </dd>
-        <dd class="clear"></dd>
-        <dt>Опыт</dt>
-        <dd class="clear">
-            <h2>Большой театр, 1926-2010</h2>
-            <ul>
-                <li>Урок классического танца.</li>
-                <li>Репетиции, разучивание новых партий.</li>
-                <li>Спектакли, концерты.</li>
-            </ul>
-
-            <h2>Малый театр, н.в. - 2010</h2>
-            <ul>
-                <li>Исполнение танцев народов мира.</li>
-                <li>Постановка хореографических номеров.</li>
-            </ul>
-        </dd>
-
-        <dt>Хобби</dt>
-        <dd>Музыка, балет, путешествия</dd>
-    </dl>
 </div>
 </body>
 </html>

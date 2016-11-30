@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Indie Flower', cursive;
+    color: midnightblue;
+    font-size: larger;
+}
+.wrapper {
+    width: 2500px;
+    margin: 150px;
+}
+.title {
+    font-size: large;
+}
+.container li {
+    list-style: square;
+}
+.container {
+    font-style: italic;
+}
+.name {
+    font-size: larger;
+}
