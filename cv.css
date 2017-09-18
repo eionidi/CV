@@ -1,8 +1,9 @@
 
 body {
-    font-family: 'Arial', cursive;
-    color: midnightblue;
+    font-family: 'Arial';
+    color: black;
     font-size: larger;
+    margin: 40px
 }
 .wrapper {
     width: 2500px;
@@ -13,6 +14,7 @@ body {
 }
 .container li {
     list-style: square;
+    margin: 20px
 }
 .container {
     font-style: italic;
