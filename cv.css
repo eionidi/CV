@@ -14,11 +14,17 @@ body {
 }
 .container li {
     list-style: square;
-    margin: 20px
+    margin: 20px;
 }
 .container {
-    font-style: italic;
+    font-style: arial;
+    padding: 50px;
 }
 .name {
     font-size: larger;
+}
+.info {
+  float: right;
+  right: 70%;
+  padding: 50px;
 }
